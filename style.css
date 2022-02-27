@@ -112,10 +112,10 @@ body {
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
-  /* animation: moveright 2s linear 1;
+  animation: moveright 2s linear 1;
   animation-delay: 4s;
   visibility: hidden;
-  animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
 }
 
 /* .first-half {
@@ -176,10 +176,10 @@ body {
   display: flex;
   justify-content: center;
   height: 300px;
-  /* animation: zoomin 2s linear 1;
+  animation: zoomin 2s linear 1;
   animation-delay: 5s;
   visibility: hidden;
-  animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
 }
 
 @keyframes zoomin {
@@ -1022,9 +1022,9 @@ footer {
 }
 
 @media (max-width: 230px) {
-  body {
+  /* body {
     background-color: blueviolet;
-  }
+  } */
 
   .title-wrapper {
     font-size: 10px;
