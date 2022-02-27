@@ -112,10 +112,10 @@ body {
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
-  animation: moveright 2s linear 1;
+  /* animation: moveright 2s linear 1;
   animation-delay: 4s;
   visibility: hidden;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 
 /* .first-half {
@@ -176,10 +176,10 @@ body {
   display: flex;
   justify-content: center;
   height: 300px;
-  animation: zoomin 2s linear 1;
+  /* animation: zoomin 2s linear 1;
   animation-delay: 5s;
   visibility: hidden;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 
 @keyframes zoomin {
@@ -1011,6 +1011,184 @@ footer {
     margin-top: 17px;
     width: 80px;
     height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* transition: ease-in-out 1s; */
+  }
+}
+
+@media (max-width: 230px) {
+  body {
+    background-color: blueviolet;
+  }
+
+  .title-wrapper {
+    font-size: 10px;
+    margin-top: 40px;
+    color: #263238;
+    font-weight: var(--fw-darker);
+    text-align: center;
+  }
+
+  .smile-ctn img {
+    position: absolute;
+    top: 7px;
+    left: 139px;
+    width: 20px;
+  }
+
+  .text-content {
+    font-style: normal;
+    font-size: 7px;
+    color: rgba(38, 50, 56, 1);
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .hero-img {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .hero-img-ctn {
+    position: relative;
+    /* border: 2px solid black; */
+    height: 100%;
+    /* max-height: 300px; */
+    width: 80%;
+    text-align: center;
+  }
+
+  .hero-img-ctn img {
+    width: 170px;
+    height: 170px;
+    margin-top: 25px;
+  }
+
+  .circle-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .circle-img img {
+    /* position: absolute;
+  width: 115px;
+  height: 115px;
+  top: 80px; */
+    /* right: 10px; */
+    /* left: 250px; */
+    position: relative;
+    width: 65px;
+    height: 65px;
+    top: -148px;
+    right: 60px;
+    z-index: -1;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    margin-top: -125px;
+  }
+
+  .green-ft {
+    /* border: 2px solid purple; */
+    height: 100px;
+    /* width: 160px; */
+    width: 25%;
+    margin: 0 1px;
+    position: relative;
+    background-color: var(--color-green);
+    opacity: 0.81;
+
+    /* margin-right: 522px; */
+  }
+
+  .red-ft {
+    /* border: 2px solid purple; */
+    height: 110px;
+    /* width: 160px; */
+    width: 25%;
+    top: -10px;
+    margin: 0 5px;
+    position: relative;
+    background-color: var(--color-red);
+    opacity: 0.81;
+
+    /* margin-right: 522px; */
+  }
+
+  .blue-ft {
+    /* border: 2px solid purple; */
+    height: 120px;
+    /* width: 160px; */
+    width: 25%;
+    margin: 0 5px;
+    position: relative;
+    top: -20px;
+    background-color: var(--color-blue);
+    opacity: 0.81;
+
+    /* margin-right: 522px; */
+  }
+
+  .yellow-ft {
+    /* border: 2px solid purple; */
+    height: 130px;
+    /* width: 160px; */
+    width: 25%;
+    margin: 0 5px;
+    position: relative;
+    top: -30px;
+    background-color: var(--color-yellow);
+    opacity: 0.81;
+    /* top: -10px; */
+    /* margin-right: 522px; */
+  }
+
+  .header-container {
+    background-color: var(--color-blue);
+    padding-top: 10px;
+    height: 50px;
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .para-one {
+    color: white;
+    margin-top: 8px;
+    padding-left: 10px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: var(--fw-darker);
+    /* font-weight: bolder; */
+  }
+
+  .para-span {
+    font-weight: normal;
+  }
+
+  .contact-btn {
+    background-color: var(--color-yellow);
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 80px;
+    height: 25px;
     border-radius: 5px;
     font-weight: bold;
     font-size: 10px;
